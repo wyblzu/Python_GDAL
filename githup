@@ -1,0 +1,60 @@
+
+   61  ls
+   62  vim build.txt 
+   63  cd bin/
+   64  ls
+   65  ./pycharm.sh 
+   66  apt-cache search gdal
+   67  sudo apt-get install libgdal-dev libgdal-doc python-gdal python3-gdal 
+   68  import pycharm
+   69  import python
+   70  python
+   71  exit
+   72  ssh-keygen 
+   73  cd .ssh/
+   74  cat id_rsa.pub 
+   75  ls
+   76  cat id_rsa
+   77  cd
+   78  ls
+   79  sudo  apt-get install git
+   80  git --version
+   81  git clone git@github.com:wyblzu/Python_GDAL.git
+   82  ls
+   83  cd PycharmProjects/
+   84  ls
+   85  cd ..
+   86  cd Python_GDAL/
+   87  ls
+   88  vi LICENSE 
+   89  ls
+   90  cp ../PycharmProjects/untitled/Read_xls.py .
+   91  ls
+   92  git add .
+   93  git diff --staged
+   94  ls
+   95  git commit -m "add Read_xls.py file"
+   96  git config --global user.name "wyb"
+   97  git config --global user.email "1026809921@qq.com"
+   98  git commit -m "add Read_xls.py file"
+   99  git log
+  100  git push
+  101  ls
+  102  vi Read_xls.py 
+  103  git add .
+  104  git diff --staged
+  105  git commit -m "add test line"
+  106  git push
+  107  history
+
+
+
+
+
+
+   66  apt-cache search gdal
+   67  sudo apt-get install libgdal-dev libgdal-doc python-gdal python3-gdal 
+   68  import pycharm
+   69  import python
+
+
