@@ -1,10 +1,5 @@
-__author__ = 'wyb'
+# __author__ = 'wyb'
 # -*- coding:utf-8 -*-
-# -------------------------------------------
-'''
-批量生成md5值
-'''
-# -------------------------------------------
 import os
 import sys
 import time
@@ -23,8 +18,8 @@ def create_new_md5sum():
             val = os.popen('md5sum %s' % (os.path.join(r, f_))).read()
             md5sum = val.split(' ')[0]
             output_md5sum = md5sum + ' ' + f_
-            with open('/home/wyb/data/test/%s/md5sum.txt' % os.path.split(os.path.split(os.path.join(r, f_))[0])[1], 'a+'
-            ) as f_txt:
+            with open('%s/%s/md5sum.txt' % (input_path, os.path.split(os.path.split(os.path.join(r, f_))[0])[1]), 'a+') \
+                    as f_txt:
                 f_txt.write(output_md5sum + '\n')
 
 
